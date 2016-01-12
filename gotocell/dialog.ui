@@ -27,6 +27,13 @@
       </widget>
      </item>
      <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>&amp;OK</string>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QLineEdit" name="lineEdit"/>
      </item>
     </layout>
