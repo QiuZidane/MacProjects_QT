@@ -1,8 +1,9 @@
-#ifndef SORTDIALOG_H
+﻿#ifndef SORTDIALOG_H
 #define SORTDIALOG_H
 
 #include <QDialog>
 #include "ui_sortdialog.h"
+
 
 namespace Ui {
 class SortDialog;
@@ -17,6 +18,9 @@ public:
     ~SortDialog();
 
     void setColumnRange(QChar first, QChar last);
+
+public slots:
+    void on_pushButton_4_clicked();
 
 private:
     Ui::SortDialog *ui;
